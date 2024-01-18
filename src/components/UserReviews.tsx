@@ -2,7 +2,7 @@ import clientCards from '../data-mockup/clientCards'
 import { ReviewCard } from './ReviewCard'
 import { ReviewCardProps } from '../data-mockup/componentTypes'
 
-export const UserReviews = (props: any) => {
+export const UserReviews = () => {
   return (
     <section className='p-10'>
       <h1 className='font-bold text-5xl pb-2'>Hundreds of projects built</h1>

@@ -15,7 +15,7 @@ export const ClientQuotes = () => {
                 <h4 className='text-lg  text-violet-800'>Mark Reid</h4>
                 <h5 className='block  text-graybit-400 text-sm pb-2'>CEO & Founder - Galacticus</h5>
               </div>
-              <img src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" className='flex-none rounded-full w-24 h-24 translate-y-6 drop-shadow-md border-2 border-graybit-100' alt="A profile picture of Mark Reid, CEO & Founder of Galacticus" srcset="" />
+              <img src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" className='flex-none rounded-full w-24 h-24 translate-y-6 drop-shadow-md border-2 border-graybit-100' alt="A profile picture of Mark Reid, CEO & Founder of Galacticus" />
             </div>
           </article>
         </section>
