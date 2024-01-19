@@ -5,11 +5,14 @@ const CTABanner = () => {
         <h3 className='pb-6'>Join our community today and start building your dream app</h3>
         <button className="outline mb-auto block bg-white text-purplebit-500 border-2 border-purplebit-600 rounded-2xl shadow-md shadow-purplebit-400/50 z-10" type="button">Get Started Now — It’s Free!</button>
         <svg xmlns="http://www.w3.org/2000/svg" className=' inline h-autojustify-self-end mt-16 z-10' height="40" viewBox="0 0 100 55" fill="none">
-          <path  className="" d="M99.9702 55H0.0302734L49.9102 0.880001L99.9702 55Z" fill="white" />
+          <path  className="" d="M99.9702 55H0.0302734L49.9102 0.880001L99.9702 55Z" fill="white" className="dark:fill-graybit-500" />
         </svg>
         <img 
         className='absolute left-0 bottom-0 -z-1 opacity-80'
-        src="/banner-logo.svg" alt="Draftbit logo in the background" />
+        src="./banner-logo.svg" alt="Draftbit logo in the background" />
+        <img 
+        className='absolute right-0 top-0 -z-1 opacity-80 rotate-180'
+        src="./banner-logo.svg" alt="Draftbit logo in the background" />
       </section>
     )
   }

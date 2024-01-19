@@ -10,7 +10,7 @@ import { ClientQuotes } from './components/ClientQuotes'
 import CTABanner from './components/CTABanner'
 import FAQs from './components/FAQs'
 import Footer from './components/Footer'
-
+import Switcher from './components/Switcher'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +19,7 @@ function App() {
   return (
     <>
       <TestProjectSection>
+        <Switcher />
         <UserReviews />
         <ClientQuotes />
         <CTABanner />

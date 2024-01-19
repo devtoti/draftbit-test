@@ -17,6 +17,7 @@ export default {
       purplebit: {
         50: "#F7F5FF",
         100:"#EAE5FE",
+        350: "#AF58FF",
         200:"#686A9E",
         300:"#BCAAFC",
         400:"#9D7CF9",
@@ -47,6 +48,7 @@ export default {
       }
     },
   },
+  darkMode: 'class',
   plugins: [],
 }
 
